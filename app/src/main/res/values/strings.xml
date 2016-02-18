@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TANAPA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Park Map</string>
+    <string name="action_lodge">Accommodation</string>
+    <string name="action_food">Accommodation</string>
+    <string name="nav_item_chat">Live Chat</string>
+    <string name="nav_item_support">Quick Support</string>
+    <string name="nav_item_location">My Location</string>
+    <string name="nav_item_map">Our Map</string>
+    <string name="nav_sub_menu">Sub Menu</string>
+    <string name="nav_sub_menu_item01">Sub Menu Item 1</string>
+    <string name="nav_sub_menu_item02">Sub Menu Item 2</string>
+    <string name="drawer_header_text">TANAPA APP</string>
+    <string name="second_activity_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id aliquam scelerisque. Donec ultrices lacus vel dignissim pharetra. Vivamus pharetra augue quis rhoncus placerat. Sed ultricies at risus non cursus. Nam rutrum leo nec placerat consectetur. Vestibulum feugiat eleifend diam, nec interdum augue tincidunt sit amet. Praesent feugiat est auctor lacus consectetur, vitae pellentesque dolor laoreet.</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="parks">PARKS</string>
+    <string name="activity">Activities</string>
+    <string name="lodge">LODGING</string>
+    <string name="title_activity_park">ParkActivity</string>
+    <string name="lodging">Lodging</string>
+    <string name="fragment_park">Parks</string>
+    <string name="fragment_activity">Activity</string>
+    <string name="title_activity_park_review">ParkReviewActivity</string>
+    <string name="btn_send">Send</string>
+</resources>

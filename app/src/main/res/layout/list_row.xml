@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:padding="1dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/cv"
+        card_view:cardBackgroundColor="#e9faef"
+        card_view:cardElevation="2sp"
+        card_view:cardUseCompatPadding="true"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            >
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/imgIcon"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="8dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/parkName"
+                android:layout_toRightOf="@+id/imgIcon"
+                android:layout_alignParentTop="true"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/parkShortDesc"
+                android:textSize="15dip"
+                android:layout_toRightOf="@+id/imgIcon"
+                android:layout_below="@+id/parkName"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/parkRatingCount"
+                android:textSize="14dip"
+                android:layout_toRightOf="@+id/imgIcon"
+                android:layout_below="@+id/parkShortDesc"
+
+
+                />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_below="@+id/parkShortDesc"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
